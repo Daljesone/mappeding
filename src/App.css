@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+/* styles.css */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #333; /* Fondo negro */
+  color: #ddd; /* Texto gris claro */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: #222; /* Fondo gris oscuro para el encabezado */
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ddd; /* Enlaces en texto gris claro */
+}
+
+h2 {
+  color: #ddd; /* Encabezados en texto gris claro */
+}
+
+button {
+  background-color: #222; /* Fondo gris oscuro para los botones */
+  color: #ddd; /* Texto gris claro para los botones */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555; /* Cambio de color al pasar el mouse sobre los botones */
+}
+
+footer {
+  background-color: #222; /* Fondo gris oscuro para el pie de página */
+  padding: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-column h3 {
+  color: #ddd; /* Encabezados en texto gris claro */
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #ddd; /* Enlaces en texto gris claro */
+}
+
+/* Estilos para el popup */
+.map-popup {
+  background-color: #222 !important; /* Fondo gris oscuro para el popup */
+  padding: 20px !important;
+  color: #ddd !important; /* Texto gris claro */
+}
+
+/* Estilos para el botón popup */
+button.button-popup {
+  display: block !important;
+  width: 200px !important; /* Ajusta el ancho según sea necesario */
+  margin: 0 auto !important; /* Centra horizontalmente */
+  padding: 10px 20px !important; /* Ajusta el relleno */
+  background-color: #333 !important; /* Fondo gris oscuro */
+  color: #fff !important; /* Texto blanco */
+  border: none !important; /* Sin borde */
+  border-radius: 5px !important; /* Borde redondeado */
+  cursor: pointer !important; /* Cambia el cursor al pasar por encima */
+}
+
+button.button-popup:hover {
+  background-color: #555 !important; /* Cambia el color de fondo al pasar el mouse */
 }
