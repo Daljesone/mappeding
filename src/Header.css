@@ -1,0 +1,32 @@
+/* Header.css */
+
+.header-container {
+    background-color: #222; /* Fondo gris oscuro para el encabezado */
+    padding: 10px;
+    text-align: center; /* Centra el contenido del encabezado */
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-menu {
+    display: flex;
+  }
+  
+  .nav-item {
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #ddd; /* Color del texto */
+  }
+  
+  .nav-item:hover {
+    background-color: #333; /* Cambio de color al pasar el mouse sobre la pestaña */
+  }
+  
+  .nav-item.active {
+    background-color: #444; /* Color de fondo de la pestaña activa */
+  }
+  
+  
