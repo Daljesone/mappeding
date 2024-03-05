@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mappeding/static/css/main.43d1e53e.css",
+    "main.js": "/mappeding/static/js/main.5a53e492.js",
+    "static/js/453.60ef14e3.chunk.js": "/mappeding/static/js/453.60ef14e3.chunk.js",
+    "index.html": "/mappeding/index.html",
+    "main.43d1e53e.css.map": "/mappeding/static/css/main.43d1e53e.css.map",
+    "main.5a53e492.js.map": "/mappeding/static/js/main.5a53e492.js.map",
+    "453.60ef14e3.chunk.js.map": "/mappeding/static/js/453.60ef14e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43d1e53e.css",
+    "static/js/main.5a53e492.js"
+  ]
+}
